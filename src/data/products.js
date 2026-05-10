@@ -258,6 +258,28 @@ const CATALOG_EXTRA = [
     desc: "Uma fatia generosa do nosso bolo de banana caramelizada, perfeita para adoçar qualquer momento do dia.",
     price: "Consultar",
   },
+  {
+    id: "mini-milho",
+    name: "Mini Milho",
+    short: "Mini bolo de chocolate com cobertura cremosa de leite ninho.",
+    image: "/assets/bolos-classicos/mini-milho.png",
+    color: "#D99A5B",
+    colorLight: "rgba(217,154,91,0.18)",
+    category: "Clássicos",
+    desc: "Mini bolo de milho. Perfeito para uma porção individual cheia de sabor.",
+    price: "Consultar",
+  },
+  {
+    id: "mini-romeu-julieta",
+    name: "Mini Romeu e Julieta",
+    short: "Mini bolo de romeu e julieta.",
+    image: "/assets/bolos-classicos/mini-romeu-julieta.png",
+    color: "#D4A84B",
+    colorLight: "rgba(212,168,75,0.18)",
+    category: "Clássicos",
+    desc: "Mini bolo de romeu e julieta. O equilíbrio perfeito entre o doce e o salgado.",
+    price: "Consultar",
+  },
 ];
 
 export const ALL_PRODUCTS = [...FEATURED_CAKES, ...CATALOG_EXTRA];

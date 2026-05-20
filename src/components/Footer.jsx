@@ -1,4 +1,6 @@
 import { WHATSAPP } from '../data/products';
+import { DEVELOPER_INSTAGRAM } from '../data/site';
+import IconInstagram from './IconInstagram';
 
 export default function Footer() {
   return (
@@ -39,8 +41,40 @@ export default function Footer() {
         </div>
 
         <hr style={{ border: 'none', borderTop: '1px solid rgba(253,248,243,0.1)', marginBottom: 20 }} />
-        <div style={{ fontSize: 12, color: 'rgba(253,248,243,0.40)', textAlign: 'center' }}>
-          © 2026 Ateliê Doce Lar — Confeitaria familiar, artesanal e caseira.
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 10,
+            flexWrap: 'wrap',
+            fontSize: 12,
+            color: 'rgba(253,248,243,0.40)',
+            marginBottom: 16,
+          }}
+        >
+          <span>Desenvolvido por Paloma Brum Lima</span>
+          <a
+            href={DEVELOPER_INSTAGRAM}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram de Paloma Brum Lima"
+            className="footer-dev-instagram"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: 32,
+              height: 32,
+              borderRadius: '50%',
+              background: 'rgba(253,248,243,0.08)',
+              color: 'rgba(253,248,243,0.70)',
+              textDecoration: 'none',
+              transition: 'background 0.2s, color 0.2s, transform 0.15s',
+            }}
+          >
+            <IconInstagram size={16} />
+          </a>
         </div>
       </div>
     </footer>
